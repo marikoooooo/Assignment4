@@ -1,0 +1,6 @@
+== 1.0.1 : 2025-03-31 ==
+	* New - Screenshots changes with updated links.
+	* Fix - Some Design updated. 
+
+== 1.0.0 : 2025-02-12 ==
+	* Submit theme on wordpress.org trac.
