@@ -1,0 +1,214 @@
+/*=================================================
+            Radio Image Control
+=================================================*/
+.customize-control-kirki-radio-image input+label .image-clickable {
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  background: transparent;
+}
+
+/*.customize-control-radio-image .ui-button-text { padding: 0; }*/
+
+.customize-control-kirki-radio-image input+label .image-clickable,
+.customize-control-kirki-radio-image input:checked+label img {
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  padding: 2px;
+  border: 3px solid transparent;
+}
+
+.customize-control-kirki-radio-image input+label .image-clickable:hover,
+.customize-control-kirki-radio-image input+label .image-clickable:focus {
+  border-color: #00a0d2;
+}
+
+.customize-control-kirki-radio-image input:checked+label img {
+  border-color: #00a0d2;
+  display: block;
+}
+
+.customize-control-kirki-radio-image .image label {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.customize-control-kirki-radio-image input:checked+label img {
+  box-shadow: none;
+}
+
+.customize-control-kirki-radio-image>.image {
+  display: block;
+}
+
+.customize-control-kirki-radio-image label img {
+  border: 3px solid transparent;
+  padding: 2px;
+  display: block;
+}
+
+.customize-control-kirki-radio-image .image label {
+  position: relative;
+}
+
+.customize-control-kirki-radio-image label .image-label {
+    position: absolute;
+    display: block;
+    top: -36px;
+    background: #333;
+    color: #fff;
+    padding: 4px 7px;
+    border-radius: 3px;
+    opacity: 0;
+    visibility: hidden;
+    left: 50%;
+    width: max-content;
+    text-align: center;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    transition: all .5s ease;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    text-align: center;
+    height: auto;
+    z-index: 99;
+}
+
+.customize-control-kirki-radio-image label .image-label:before {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #333;
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  margin-left: -5px;
+}
+
+.customize-control-kirki-radio-image label:hover .image-label {
+  opacity: 1;
+  visibility: visible;
+  top: -32px;
+}
+
+/*=================================================
+            Upsell Button
+=================================================*/
+li#accordion-section-theme_upsell h3.accordion-section-title {
+    background-color: #ec9fa1 !important;
+    border-left-color: #de7b85 !important;
+}
+
+#accordion-section-theme_upsell h3 a:after {
+    content: '\f345';
+    color: #fff;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    z-index: 1;
+    font: 400 20px/1 dashicons;
+    speak: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+}
+
+li#accordion-section-theme_upsell h3.accordion-section-title a {
+    display: block;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+li#accordion-section-theme_upsell h3.accordion-section-title a:focus {
+    box-shadow: none;
+}
+
+li#accordion-section-theme_upsell h3.accordion-section-title:hover {
+    background-color: #de7b85 !important;
+}
+
+/*=================================================
+            Upgrade
+=================================================*/
+
+.customize-control-mt-upgrade {
+    background: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.customize-control-title.upgrade-title i {
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.upgrade-description {
+    margin: 5px 0 10px;
+}
+
+.mt-upgrade-btn {
+    background: #2271b1;
+    color: #fff;
+    padding: 7px 10px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    line-height: 19px;
+    text-transform: capitalize;
+}
+
+.mt-upgrade-btn:hover {
+    background: #135E96;
+    color: #fff;
+}
+
+.mt-upgrade-pro-wrapper .upgrade-title-wrap {
+    color: #414141;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.mt-upgrade-pro-wrapper .upgrade-title-wrap::before {
+    content: "\f14c";
+    font-family: dashicons;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+
+.mt-upgrade-pro-wrapper .upgrade-item::before {
+    content: "\f147";
+    font-family: dashicons;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+
+.mt-upgrade-pro-wrapper .upgrade-list-item {
+    margin: 15px 0 15px;
+}
+
+.mt-upgrade-btn {
+    margin: 0;
+    background: #4abbd5;
+    color: #fff;
+    border-color: #4abbd5;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.mt-upgrade-btn:hover {
+    background: #38aac4;
+    color: #fff;
+    border-color: #38aac4;
+}
